@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대충대학교 지식기반 포털시스템</title>
+    <script src="https://kit.fontawesome.com/17967c193a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header" id="head">
+        <nav>
+            <a href=""><img src="images/logo.png" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/index">DCU</a></li>
+                    <li><a href="#campus">학교생활</a></li>
+                    <li><a href="#course">교육과정</a></li>
+                    <li><a href="#facilities">교수진</a></li>
+                    <li><a href="/login">로그인/회원가입</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="login-wrapper">
+            <h1>로그인 화면입니다.</h1>
+            <form method="post" action="/login" id="login-form">
+                <input type='text' name="id" placeholder="아이디">
+                <input type='password' name="pw" placeholder="비밀번호">
+                <label for="remember-check">
+                    <input type="checkbox" id="remember-check">아이디 저장하기
+                </label>
+                <input type="submit" href="/login" value="로그인">
+
+            </form>
+        </div>
+    </section>
+    <section class="main" id="course">
+        <h1>Courses We Offer</h1>
+        <p>Here is the List Of Our Courses</p>
+      <div class="courses">  
+        <div class="course">      
+            <h2>Intermediate</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facere repudiandae nam delectus modi minima ea expedita magnam deleniti odit.</p>
+        </div>
+        <div class="course">
+            <h2>Degree</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, explicabo quis vel adipisci nihil quod pariatur officia laudantium unde quia.</p>
+        </div>
+        <div class="course">
+            <h2>Post Graduation</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maxime sequi ipsa reprehenderit? Aliquam in nobis repellat reiciendis</p>
+        </div>
+      </div>  
+    </section>
+    <section class="campus" id="campus">
+        <h1>Our Global Campus</h1>
+        <p>Here is some place that we had Campus</p>
+        <div class="gg">
+            <div class="place">
+                <img src="images/london.png" alt="">
+                <h3>LONDON</h3>
+            </div>
+            <div class="place"> 
+                <img src="images/newyork.png" alt="">
+                <h3>NEWYORK</h3>
+            </div>
+            <div class="place">
+                <img src="images/washington.png" alt="">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </section>
+    <section class="facilities" id="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolore!</p>
+        <div class="ggg">
+            <div class="g">
+                <img src="images/library.png" alt="">
+                <div class="d">
+                <h3>World class Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ipsa asperiores a velit dolores ratione quis facere voluptatibus consequuntur temporibus, impedit totam laudantium odit</p>
+                </div>
+            </div>
+            <div class="g">
+                <img src="images/basketball.png" alt="">
+                <div class="d">
+                <h3>Largest Play ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum totam natus pariatur enim eius ex expedita ratione. Deserunt eius, nisi aliquid necessitatibus commodi amet sed. Aspernatur quibusdam blanditiis ex quidem.</p>
+                </div>
+            </div>
+            <div class="g">
+                <img src="images/cafeteria.png" alt="">
+                <div class="d">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius suscipit repudiandae laudantium similique obcaecati perferendis blanditiis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
